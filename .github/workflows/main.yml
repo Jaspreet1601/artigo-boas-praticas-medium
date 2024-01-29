@@ -43,5 +43,4 @@ jobs:
     - name: Install
       run: mvn install
 
-    - name: Build Docker image
-      run: docker build -t yourusername/yourappname:${{ github.sha }} .
+
