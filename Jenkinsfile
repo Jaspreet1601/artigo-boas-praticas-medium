@@ -51,7 +51,7 @@ pipeline {
         }
         stage("deploy") {
             steps {
-                bat 'mvn deploy:deploy-file' // Corrected the deploy command
+                bat 'mvn deploy:deploy-file' 
             }
         }
     }
